@@ -34,6 +34,20 @@
     #00000080
   );
 
+  --bckg-color: #252C5A;
+  --font-color: white;
+  --very-light-gray:#C7C7C7;
+  --text-input-field: #F7F7F7;
+  --hospital-green: #ACD982;
+  --very-light-blue:#bad7f1;
+  --dark-blue: #252C5A;
+  --white: #FFFFFF;
+  --black: #000000;
+  --ss: 1.2rem;
+  --sm: 1.4rem;
+  --md: 1.5rem;
+  --lg: 1.8rem;
+
   --callout-rgb: 238, 240, 241;
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
@@ -79,13 +93,27 @@
   margin: 0;
 }
 
-html,
+/* html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+} */
+
+html {
+  font-size: 62.5%;
 }
 
-body {
+main {
+  width: 100%;
+  padding-bottom: 5rem;
+}
+
+p, ul {
+  font-size: var(--sm);
+  line-height: 2rem;
+}
+
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -104,4 +132,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */
