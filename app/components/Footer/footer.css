@@ -1,0 +1,151 @@
+footer {
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    background-color: var(--dark-blue);
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.contact {
+    visibility: hidden;
+    position: absolute;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.personal-logo {
+    width: 40%;
+}
+
+.contact-info h2 {
+    color: var(--hospital-green);
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.contact-info h2:first-child {
+    margin-top: 0;
+}
+
+.contact-info p {
+    margin-left: 3rem;
+    color: var(--white);
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.personal-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.personal-logo img {
+    width: 10rem;
+    height: 10rem;
+}
+
+p {
+    font-size: var(--sm);
+    line-height: 2rem;
+}
+
+
+@media (min-width: 600px) {
+    .contact-info h2 {
+        margin-left: 9rem;
+    }
+    
+    .contact-info p {
+        margin-left: 9rem;
+    }
+    
+    .personal-logo img {
+        width: 15rem;
+        height: 15rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    p {
+        font-size: 1.6rem;
+    }
+    
+    footer {
+        height: 25rem;
+    }
+    
+    .contact {
+        visibility: visible;
+        position: static;
+        display: flex;
+        align-items: center;
+    }
+    
+    .contact, .contact-info, .personal-logo {
+        width: 33.3%;
+    }
+    
+    .contact h1 {
+        font-size: 3rem;
+        color: var(--white);
+        margin-left: 8rem;
+    }
+    
+    .contact p {
+        margin-top: 1rem;
+        color: var(--white);
+        margin-left: 8rem;
+    }
+    
+    .contact button {
+        background-color: var(--hospital-green);
+        border: 0.1rem solid  var(--hospital-green);
+        color: var(--dark-blue);
+        font-size: 1rem;
+        font-weight: 900;
+        height: 4rem;
+        width: 15rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+    }
+
+    .contact button a {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        color: var(--dark-blue);
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 900;
+    }
+    
+    .contact button:active {
+        background-color: var(--white);
+    }
+    
+    .contact-info h2 {
+        color: var(--hospital-green);
+        margin-left: 12rem;
+    }
+    
+    .contact-info p {
+        margin-left: 12rem;
+        color: var(--white);
+    }
+    
+    .personal-logo img {
+        width: 18rem;
+        height: 18rem;
+    }
+}

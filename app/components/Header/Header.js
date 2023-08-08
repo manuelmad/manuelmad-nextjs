@@ -7,7 +7,7 @@ export default function Header(props) {
     return (
         <header className={styles.header}>
             <div className={styles.header_logo_container}>
-                <Link className={styles.logo_link} href="/app/page.js">
+                <Link className={styles.logo_link} href="/">
                     <Image
                         className={styles.logo_img}
                         src="/logo.png"

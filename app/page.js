@@ -1,15 +1,23 @@
 import Image from 'next/image';
 import styles from './page.module.css';
 import Link from 'next/link';
-import Header from './components/Header';
-import { Work_Sans } from 'next/font/google';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 import { Nothing_You_Could_Do } from 'next/font/google';
-//import localFont from 'next/font/local';
+import localFont from 'next/font/local';
 
-const work_sans = Work_Sans({
-  subsets: ['latin'],
-  weight: '700',
-});
+
+const work_sans = localFont({
+  display: 'swap',
+  src: [
+      {
+        path: '../public/WorkSans-VariableFont_wght.ttf',
+        weight: '300',
+        style: 'normal',
+      }
+    ]
+  }
+)
 
 const nothing = Nothing_You_Could_Do({
   subsets: ['latin'],
@@ -106,6 +114,7 @@ export default function Home() {
             </div>
         </section>
       </main>
+      <Footer/>
     </>
   )
 }
