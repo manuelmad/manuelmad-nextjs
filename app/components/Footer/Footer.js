@@ -7,8 +7,8 @@ export default function Header() {
         <footer id="contacto">
             <section className="contact">
                 <div>
-                    <h1>Contáctame</h1>
-                    <p>Si deseas ponerte en contacto conmigo para conocer un poco más acerca de mis proyectos, que colabore en alguno de los tuyos o para ofertas de trabajo, aquí te dejo la información que necesitas.</p>
+                    <h1>Contact me</h1>
+                    <p>If you want to get in touch with me to know a bit more about my projects, collaborate in some of yours or offer me a job, this is the information you need.</p>
                     <p>
                         <button>
                             <Link href="/projects">MY PROJECTS</Link>
