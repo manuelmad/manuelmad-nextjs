@@ -47,12 +47,12 @@ export default function Home() {
                 <p><button><Link href="/projects">MY PROJECTS</Link></button></p>
             </div>
             <div className={styles.introduction_right}>
-                <Image src="/imgs/manuel-araujo-picture.png" width={93.5} height={115} alt="Manuel Araujo picture"/>
+                <Image src="/imgs/manuel-araujo-picture.png" width={305} height={377} alt="Manuel Araujo picture"/>
             </div>   
         </section>
         <section id="personal-info" className={styles.personal_info}>
             <div className={styles.personal_info__left}>
-                <Image src="/imgs/about-me.png" width={130} height={116} alt="about me img"/>
+                <Image src="/imgs/about-me.png" width={479} height={428} alt="about me img"/>
                 <h1>About me</h1>
                 <p>La primera carrera universitaria que emprendí fue la Ingeniería de Petróleo, profesión que me encuentro ejerciendo actualmente.</p>
                 <p>Un poco antes de trabajar en la industria petrolera, completé otra carrera universitaria: Licenciatura en Educación, mención Matemática y Física, la cual ejercí por cerca de 2 años.</p>
@@ -106,10 +106,10 @@ export default function Home() {
                     <p><Image src="/imgs/html-5.png" alt="logo html 5" width={512} height={512}/></p>
                     <p><Image src="/imgs/css-3.png" alt="logo css 3" width={512} height={512}/></p>
                     <p><Image src="/imgs/js.png" alt="logo javascript" width={512} height={512}/></p>
-                    <p><Image src="/imgs/react.png" alt="logo react js" width={40} height={40}/></p>
+                    <p><Image src="/imgs/react.png" alt="logo react js" width={4096} height={4096}/></p>
                     <p><Image src="/imgs/git.png" alt="logo git js" width={512} height={512}/></p>
                     <p><Image src="/imgs/github.png" alt="logo github js" width={512} height={512}/></p>
-                    <p><Image src="/imgs/npm.png" alt="logo npm js" width={40} height={40}/></p>
+                    <p><Image src="/imgs/npm.png" alt="logo npm js" width={1600} height={1600}/></p>
                 </div>
             </div>
         </section>

@@ -24,13 +24,13 @@ export default function Header(props) {
                             <Link className={styles.menu_principal_a} href="/projects">{props.projects}</Link>
                             </li>
                         <li className={styles.menu_principal_li}>
-                            <Link className={styles.menu_principal_a} href="/">{props.aboutme}</Link>
+                            <Link className={styles.menu_principal_a} href="/#personal-info">{props.aboutme}</Link>
                             </li>
                         <li className={styles.menu_principal_li}>
-                            <Link className={styles.menu_principal_a} href="/">{props.studies}</Link>
+                            <Link className={styles.menu_principal_a} href="/#curriculum">{props.studies}</Link>
                             </li>
                         <li className={styles.menu_principal_li}>
-                            <Link className={styles.menu_principal_a} href="/">{props.contact}</Link>
+                            <Link className={styles.menu_principal_a} href="/#contacto">{props.contact}</Link>
                         </li>
                     </ul>
                 </div>
