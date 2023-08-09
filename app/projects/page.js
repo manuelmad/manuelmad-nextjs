@@ -31,7 +31,11 @@ export default function Projects() {
                 <section className="introduction">
                     <div className="introduction-left">
                         <h1 className={work_sans.className}>Mis Proyectos</h1>
-                        <p><button>CONTÁCTAME</button></p>
+                        <p>
+                            <button>
+                                <Link  href="/#contacto">CONTÁCTAME</Link>
+                            </button>
+                        </p>
                     </div>
                     <div className="introduction-right">
                         <Image src="/imgs/manuel-araujo-picture.png" width={305} height={377} alt="Manuel Araujo picture"/>
