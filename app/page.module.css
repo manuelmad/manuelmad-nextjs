@@ -330,4 +330,9 @@
   .habilities_container p {
     text-align: left;
   }
+
+  .habilities_container img {
+    width: 6rem;
+    height: 6rem;
+  }
 }

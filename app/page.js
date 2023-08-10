@@ -95,7 +95,6 @@ export default function Home() {
                 <p>Capacity to organize and planning.</p>
                 <p>Respectful to coworkers.</p>
                 <p>Capacity to analyze and solve problems.</p>
-                <p>High English level.</p>
 
                 <h1 className={styles.technical_habilities}>Technical Skills</h1>
                 <div className={styles.habilities_container}>
