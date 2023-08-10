@@ -10,7 +10,7 @@ export default function Header(props) {
                 <Link className={styles.logo_link} href="/">
                     <Image
                         className={styles.logo_img}
-                        src="/logo.png"
+                        src="/imgs/logo.png"
                         alt="logo"
                         width={200}
                         height={62}
