@@ -10,37 +10,37 @@ const myFont = localFont({
   display: 'swap',
   src: [
     {
-      path: '../public/Roboto_Condensed/RobotoCondensed-Regular.ttf',
+      path: '../public/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../public/Roboto_Condensed/RobotoCondensed-Italic.ttf',
+      path: '../public/fonts/Roboto_Condensed/RobotoCondensed-Italic.ttf',
       weight: '400',
       style: 'italic',
     },
     {
-      path: '../public/Roboto_Condensed/RobotoCondensed-Bold.ttf',
+      path: '../public/fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf',
       weight: '700',
       style: 'normal',
     },
     {
-      path: '../public/Roboto_Condensed/RobotoCondensed-Light.ttf',
+      path: '../public/fonts/Roboto_Condensed/RobotoCondensed-Light.ttf',
       weight: '300',
       style: 'normal',
     },
     {
-      path: '../public/Roboto_Condensed/RobotoCondensed-LightItalic.ttf',
+      path: '../public/fonts/Roboto_Condensed/RobotoCondensed-LightItalic.ttf',
       weight: '300',
       style: 'italic',
     },
     {
-      path: '../public/Roboto_Condensed/RobotoCondensed-Italic.ttf',
+      path: '../public/fonts/Roboto_Condensed/RobotoCondensed-Italic.ttf',
       weight: '400',
       style: 'italic',
     },
     {
-      path: '../public/Roboto_Condensed/RobotoCondensed-BoldItalic.ttf',
+      path: '../public/fonts/Roboto_Condensed/RobotoCondensed-BoldItalic.ttf',
       weight: '700',
       style: 'italic',
     }
