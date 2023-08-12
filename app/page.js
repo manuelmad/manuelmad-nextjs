@@ -11,7 +11,7 @@ const work_sans = localFont({
   display: 'swap',
   src: [
       {
-        path: '../public/WorkSans-VariableFont_wght.ttf',
+        path: '../public/fonts/WorkSans-VariableFont_wght.ttf',
         weight: '300',
         style: 'normal',
       }
@@ -102,6 +102,7 @@ export default function Home() {
                     <p><Image src="/imgs/css-3.png" alt="logo css 3" width={512} height={512}/></p>
                     <p><Image src="/imgs/js.png" alt="logo javascript" width={512} height={512}/></p>
                     <p><Image src="/imgs/react.png" alt="logo react js" width={4096} height={4096}/></p>
+                    <p><Image src="/imgs/Nextjs-logo.svg.png" alt="logo next js js" width={2560} height={520}/></p>
                     <p><Image src="/imgs/git.png" alt="logo git js" width={512} height={512}/></p>
                     <p><Image src="/imgs/github.png" alt="logo github js" width={512} height={512}/></p>
                     <p><Image src="/imgs/npm.png" alt="logo npm js" width={1600} height={1600}/></p>

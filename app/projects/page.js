@@ -10,7 +10,7 @@ const work_sans = localFont({
   display: 'swap',
   src: [
       {
-        path: '../../public/WorkSans-VariableFont_wght.ttf',
+        path: '../../public/fonts/WorkSans-VariableFont_wght.ttf',
         weight: '300',
         style: 'normal',
       }
