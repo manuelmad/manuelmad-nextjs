@@ -74,10 +74,10 @@ export default function Home() {
                     <li>Basic and Practical JavaScript.</li>
                     <li>Responsive Design: Mobile First.</li>
                     <li>Professional CSS Grid Layout.</li>
-                    <li>Basic and e Intermediate OOP with JavaScript.</li>
+                    <li>Basic and Intermediate OOP with JavaScript.</li>
                     <li>ECMAScript 6+.</li>
                     <li>Asynchronism with JavaScript.</li>
-                    <li>Management de Dependencies y Packages with NPM.</li>
+                    <li>Management of Dependencies y Packages with NPM.</li>
                     <li>Arrays Methods with JavaScript.</li>
                     <li>REST API's with JavaScript.</li>
                     <li>Webpack.</li>
