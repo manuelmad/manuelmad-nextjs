@@ -41,7 +41,7 @@ export default function Home() {
             <div className={styles.introduction_left}>
                 <h1 className={work_sans.className}>Hi, I'm<br/>Manuel Araujo</h1>
                 <h2 className={nothing.className}>Frontend Developer</h2>
-                <p><button><Link href="/projects">MY PROJECTS</Link></button></p>
+                <p><Link href="/projects">MY PROJECTS</Link></p>
             </div>
             <div className={styles.introduction_right}>
                 <Image src="/imgs/manuel-araujo-picture.png" width={305} height={377} alt="Manuel Araujo picture"/>

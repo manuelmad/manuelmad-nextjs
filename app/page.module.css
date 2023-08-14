@@ -31,18 +31,23 @@
   margin-top: 1rem;
 }
 
-.introduction_left button {
-  /* color: var(--white); */
+.introduction_left p {
   background-color: var(--dark-blue);
   border: 0.1rem solid var(--dark-blue);
-  font-size: 1rem;
   height: 4rem;
   width: 15rem;
   border-radius: 0.5rem;
   cursor: pointer;
 }
 
-.introduction_left button a {
+.introduction_left a {
+  background-color: var(--dark-blue);
+  border: 0.1rem solid var(--dark-blue);
+  font-size: var(--ss);
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
   color: var(--white);
   text-decoration: none;
   display: flex;
@@ -52,7 +57,7 @@
   justify-content: center;
 }
 
-.introduction_left button:active {
+.introduction_left a:active {
   color: var(--dark-blue);
   background-color: var(--white);
 }

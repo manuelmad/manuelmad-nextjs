@@ -32,9 +32,7 @@ export default function Projects() {
                     <div className="introduction-left">
                         <h1 className={work_sans.className}>My Projects</h1>
                         <p>
-                            <button>
-                                <Link  href="/#contacto">CONTACT ME</Link>
-                            </button>
+                            <Link  href="/#contacto">CONTACT ME</Link>
                         </p>
                     </div>
                     <div className="introduction-right">

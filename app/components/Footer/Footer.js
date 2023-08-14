@@ -9,10 +9,8 @@ export default function Header() {
                 <div>
                     <h1>Contact me</h1>
                     <p>If you want to get in touch with me to know a bit more about my projects, collaborate in some of yours or offer me a job, this is the information you need.</p>
-                    <p>
-                        <button>
-                            <Link href="/projects">MY PROJECTS</Link>
-                        </button>
+                    <p id='link_container'>
+                        <Link href="/projects">MY PROJECTS</Link>
                     </p>
                 </div>
             </section>

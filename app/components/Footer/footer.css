@@ -106,31 +106,32 @@ p {
         margin-left: 8rem;
     }
     
-    .contact button {
+    .contact #link_container {
         background-color: var(--hospital-green);
         border: 0.1rem solid  var(--hospital-green);
         color: var(--dark-blue);
-        font-size: 1rem;
-        font-weight: 900;
+        /* font-weight: 900; */
         height: 4rem;
         width: 15rem;
         border-radius: 0.5rem;
         cursor: pointer;
     }
 
-    .contact button a {
+    .contact #link_container a {
         display: flex;
         height: 100%;
         width: 100%;
+        font-size: var(--ss);
+        font-weight: bold;
+        letter-spacing: 0.1rem;
         justify-content: center;
         align-items: center;
         color: var(--dark-blue);
         text-decoration: none;
-        font-size: 1rem;
-        font-weight: 900;
+        /* font-weight: 900; */
     }
     
-    .contact button:active {
+    .contact #link_container a:active {
         background-color: var(--white);
     }
     

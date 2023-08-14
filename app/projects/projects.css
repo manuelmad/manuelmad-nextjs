@@ -24,7 +24,7 @@
     margin-top: 1rem;
 }
 
-.introduction-left button {
+.introduction-left p {
     color: var(--white);
     background-color: var(--dark-blue);
     border: 0.1rem solid var(--dark-blue);
@@ -35,19 +35,22 @@
     cursor: pointer;
 }
 
-.introduction-left button:active {
-    color: var(--dark-blue);
-    background-color: var(--white);
-}
-
-.introduction-left button a {
+.introduction-left a {
     display: flex;
     width: 100%;
     height: 100%;
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    font-size: var(--ss);
+    font-weight: bold;
+    letter-spacing: 0.1rem;
     color: var(--white);
+}
+
+.introduction-left a:active {
+    color: var(--dark-blue);
+    background-color: var(--white);
 }
 
 .introduction-right {
