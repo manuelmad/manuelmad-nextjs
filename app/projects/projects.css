@@ -1,10 +1,22 @@
-.introduction {
+.bg_container {
     width: 100%;
     height: 18rem;
     display: flex;
     background-image: url(/imgs/bg-header.png);
     background-repeat: no-repeat;
     background-size: 90% 80%;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+.introduction {
+    width: 100%;
+    height: 18rem;
+    display: flex;
+    margin: 0 auto;
 }
 
 .introduction-left {
@@ -73,6 +85,7 @@
 .planetageek-webpage img {
     width: 25rem;
     height: 11.9rem;
+    text-align: end;
 }
 
 .videojuegos iframe {
@@ -132,12 +145,18 @@
     padding: 5rem 3rem;
 }
 
+.justified-right div, .justified-right {
+    text-align: end;
+}
+
 .justified-right h1 {
     font-size: 2.5rem;
+    text-align: end;
 }
 
 .justified-right p {
     margin-top: 1rem;
+    text-align: start;
 }
 
 .justified-right a {
@@ -146,6 +165,10 @@
 }
 
 @media (min-width: 600px) {
+    .bg_container {
+        height: 22.1rem;
+    }
+
     .introduction {
         height: auto;
         background-size: 90% 90%;
@@ -220,7 +243,12 @@
 }
 
 @media (min-width: 1024px) {
+    .bg_container {
+        height: 40rem;
+    }
+    
     .introduction {
+        width: 100rem;
         height: 40rem;
     }
     
@@ -235,6 +263,18 @@
     .introduction-right img{
         width: 24.4rem;
         height: 30rem;
+    }
+
+    .casing-design article,
+    main .planetageek-webpage article,
+    .videojuegos article,
+    main .dolce-vita article,
+    .admin-condo article,
+    main .lenin-caraballo article,
+    .formation-pressures article,
+    main .well-trajectory article {
+        width: 80rem;
+        /* margin: 0 auto; */
     }
     
     .casing-design iframe {
@@ -280,8 +320,8 @@
     }
     
     .justified-left {
-        padding-left: 8rem;
-        padding-right: 45rem;
+        padding-left: 8%;
+        /* padding-right: 45rem; */
     }
     
     .justified-left h1 {
@@ -290,8 +330,10 @@
     
     .justified-right {
         width: 100%;
-        padding-right: 8rem;
-        padding-left: 45rem;
+        padding-right: 8%;
+        /* padding-left: 45rem; */
+        display: flex;
+        justify-content: end;
     }
     
     .justified-right h1 {
