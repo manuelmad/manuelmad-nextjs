@@ -37,6 +37,7 @@ export default function Home() {
         contact="CONTACT"
       />
       <main>
+        <section className={styles.bg_container}></section>
         <section className={styles.introduction}>
             <div className={styles.introduction_left}>
                 <h1 className={work_sans.className}>Hi, I'm<br/>Manuel Araujo</h1>

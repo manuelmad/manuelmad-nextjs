@@ -5,6 +5,7 @@ import './footer.css';
 export default function Header() {
     return (
         <footer id="contacto">
+            <div className='sections-container'>
             <section className="contact">
                 <div>
                     <h1>Contact me</h1>
@@ -32,6 +33,8 @@ export default function Header() {
                     height={241}
                 /> 
             </section>
+            </div>
+          
         </footer>
     );
 }
