@@ -1,4 +1,5 @@
 import './globals.css';
+import { Analytics } from "@vercel/analytics/react";
 //import { Inter } from 'next/font/google';
 //import { Roboto_Condensed } from 'next/font/google';
 
@@ -70,7 +71,10 @@ export default function RootLayout({ children }) {
       <head>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>{/*Agrego la etiqueta head aquí para poder agregar la etiqueta meta de http-equiv, la cual no está soportada por Next JS*/}
       </head>
-      <body className={myFont.className}>{children}</body>
+      <body className={myFont.className}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   )
 }
