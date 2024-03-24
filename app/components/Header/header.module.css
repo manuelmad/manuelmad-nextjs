@@ -68,6 +68,7 @@
     background-color: var(--bckg-color);
     border: 0.1rem solid var(--font-color);
     transition: 0.5s ease all;
+    z-index: 1;
 }
 
 .container__icono_menu:hover > .menu_desplegable {
