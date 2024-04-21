@@ -118,6 +118,11 @@
     height: 14rem;
 }
 
+.groceries-app iframe {
+    width: 25rem;
+    height: 14rem;
+}
+
 
 /* Diseño de Revestidores, Administración de Condominio, Videojuegos, presiones */
 .justified-left {
@@ -240,6 +245,11 @@
         width: 35rem;
         height: 19.66rem;
     }
+
+    .groceries-app iframe {
+        width: 35rem;
+        height: 19.66rem;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -272,7 +282,7 @@
     .admin-condo article,
     main .lenin-caraballo article,
     .formation-pressures article,
-    main .well-trajectory article {
+    main .well-trajectory article, .groceries-app article {
         width: 80rem;
         /* margin: 0 auto; */
     }
@@ -315,6 +325,11 @@
     }
     
     .well-trajectory iframe {
+        width: 56rem;
+        height: 30.15rem;
+    }
+
+    .groceries-app iframe {
         width: 56rem;
         height: 30.15rem;
     }

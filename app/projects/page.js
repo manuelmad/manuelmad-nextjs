@@ -133,6 +133,18 @@ export default function Projects() {
                         <p>The app also has a “Warnings” section to show a message, describing a reason, in case the desired trajectory isn't possible to perform.</p>
                     </article>
                 </section>
+                <section className="groceries-app justified-left">
+                    <article>
+                        <h1>Groceries List Web App.</h1>
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/1zZXtPAF1a0?si=3mU3ocyV8t6MRffr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <p>I designed and developed this application to have a friendly and customized tool that can be used by my wife to easily let me know the products I should buy when coming back home.</p>
+                        <p>This application is connected to a Firebase database.</p>
+                        <p>The application always shows within the shopping list those products, or documents, where the “quantity” key has a value greater than 0. It has a drop-down list that shows all the products that exist in the database and has the option to add and remove products in real time.</p>
+                        <p>Additionally, the application lets the user add new products to the database.</p>
+                    </article>
+                </section>
             </main>
             <Footer/>
         </>
