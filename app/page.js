@@ -52,15 +52,15 @@ export default function Home() {
             <div className={styles.personal_info__left}>
                 <Image src="/imgs/about-me.png" width={479} height={428} alt="about me img"/>
                 <h1>About me</h1>
-                <p>The first professional career I accomplished was Petroleum Engineering, which I’m currently practicing.</p>
+                <p>The first professional career I accomplished was Petroleum Engineering, which I'm currently practicing.</p>
                 <p>Short before I started to work in the Petroleum Industry, I got another degree: Education, in Math and Physics; which I practiced for about 2 years.</p>
-                <p>Right now, I’m coming through a new industry, that brings me new challenges and experiences, where I can create, innovate and grow as a person and as a professional as well: Tech Industry, specifically in Web Development.</p>
+                <p>Right now, I'm coming through a new industry, that brings me new challenges and experiences, where I can create, innovate and grow as a person and as a professional as well: Tech Industry, specifically in Web Development.</p>
             </div>
             <div className={styles.personal_info__right}>
                 <h1>About me</h1>
-                <p>The first professional career I accomplished was Petroleum Engineering, which I’m currently practicing.</p>
+                <p>The first professional career I accomplished was Petroleum Engineering, which I'm currently practicing.</p>
                 <p>Short before I started to work in the Petroleum Industry, I got another degree: Education, in Math and Physics; which I practiced for about 2 years.</p>
-                <p>Right now, I’m coming through a new industry, that brings me new challenges and experiences, where I can create, innovate and grow as a person and as a professional as well: Tech Industry, specifically in Web Development.</p>
+                <p>Right now, I'm coming through a new industry, that brings me new challenges and experiences, where I can create, innovate and grow as a person and as a professional as well: Tech Industry, specifically in Web Development.</p>
             </div>
         </section>
         <section id="curriculum" className={styles.curriculum}>

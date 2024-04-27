@@ -43,7 +43,9 @@ export default function Projects() {
                 <section className="casing-design justified-left">
                     <article>
                         <h1>Casing Design.</h1>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/UClP-DTPBxA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/UClP-DTPBxA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        </div>
                         <p>This web app allows to design every feature of the casings to be used in oil wells, which will cover the borehole in each phase of the drilling plan.</p>
                         <p>Starting with the number of casing strings and their seating depths, including an adjustment based in critical conditions; following with the selection of diameters and connections of every pipe, going through the design of their nominal weight and steel grade, and finally representing all the results obtained in a schematic diagram.</p>
                     </article>
@@ -54,7 +56,6 @@ export default function Projects() {
                         <div>
                             <Image src="/imgs/planeta-geek-webpage.png" alt="imagen ejemplo de página web planeta geek" width={1893} height={892}/>
                         </div>
-                        {/* <Image src="/imgs/planeta-geek-webpage.png" alt="imagen ejemplo de página web planeta geek" width={1893} height={892}/> */}
                         <p>Planeta Geek is an excellent Venezuelan tv show based on videogames, tv series, movies, japanese animation and esports.</p>
                         <p>I created this landing page as a recognition for their effort, and also give them the chance to have more resources to reach new people.</p>
                         <p>The landging page includes a “web apps” section, where I included the links to some applications I've made to help them with the activities they perform for the public, including a Planeta Geek Videogame I developed with JS.</p>
@@ -67,7 +68,9 @@ export default function Projects() {
                 <section className="videojuegos justified-left">
                     <article>
                         <h1>Videogames App.</h1>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/eWY1OrTdAMY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/eWY1OrTdAMY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        </div>
                         <p>A single-page application.</p>
                         <p>Consuming the API from RAWG (<a href="https://rawg.io/" target="_blank">rawg.io</a>) to create an inventory of the user's games.</p>
                         <p>The user can search a game by name and add it in 1 of the 3 available categories: played, playing and to play. Also can delete any game from any category.</p>
@@ -96,7 +99,9 @@ export default function Projects() {
                 <section className="admin-condo justified-left">
                     <article>
                         <h1>Receipts Generator.</h1>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/38yGQ5b1LVE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/38yGQ5b1LVE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                        </div>
                         <p>I've created this web app so the administrator of a group of 100 houses can now generate customized receipts for the owners of each house by importing an Excel file and clicking a few buttons.</p>
                         <p>He can then download any receipt in .pdf format, instead of creating each receipt individually (100 times) as he used to.</p>
                         <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#252C5A" className="bi bi-caret-right-fill" viewBox="0 0 16 16">
@@ -105,7 +110,7 @@ export default function Projects() {
                         </p>
                     </article>
                 </section>
-                <section className="lenin-caraballo justified-right">
+                <section className="budget-calculator justified-right">
                     <article>
                         <h1>Budget Calculator for La Dolce Vita.</h1>
                         <div>
@@ -143,6 +148,18 @@ export default function Projects() {
                         <p>This application is connected to a Firebase database.</p>
                         <p>The application always shows within the shopping list those products, or documents, where the “quantity” key has a value greater than 0. It has a drop-down list that shows all the products that exist in the database and has the option to add and remove products in real time.</p>
                         <p>Additionally, the application lets the user add new products to the database.</p>
+                    </article>
+                </section>
+                <section className="rig-selection justified-right">
+                    <article>
+                        <h1>Drilling Rig Selection App.</h1>
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/zZfMIUBdZpY?si=usiDzngHzaXgRfr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <p>This app initially takes the input data, referred to the casing and drill pipe strings, to calculate the existing loads in each drilling phase: casing strings weights in the air, drilling strings weights in the air, 80% of casings body yield and 100% of drill pipes body yield.</p>
+                        <p>It then selects the highest value among them all (critical hook load) and uses it, along with other input data, to calculate the minimum required capacity for the drilling rig's derrick.</p>
+                        <p>Then, it uses the weight in the air of the heaviest string to calculate the minimum required power in drilling rig's drawworks.</p>
+                        <p>Finally, it calculates the Safety Factor of the wire, based on its diameter and the weight in the air of the heaviest string and shows an analysis indicating whether the result obtained is within the allowed range.</p>
                     </article>
                 </section>
             </main>

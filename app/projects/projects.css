@@ -77,54 +77,21 @@
     height: 11.5rem;
 }
 
-.casing-design iframe {
+main section iframe {
     width: 25rem;
     height: 14rem;
+}
+
+main section img {
+    width: 25rem;
+    height: 11.9rem;
 }
 
 .planetageek-webpage img {
-    width: 25rem;
-    height: 11.9rem;
     text-align: end;
 }
 
-.videojuegos iframe {
-    width: 25rem;
-    height: 14rem;
-}
-
-.admin-condo iframe {
-    width: 25rem;
-    height: 14rem;
-}
-
-.lenin-caraballo iframe {
-    width: 25rem;
-    height: 14rem;
-}
-
-.dolce-vita img {
-    width: 25rem;
-    height: 11.9rem;
-}
-
-.formation-pressures iframe {
-    width: 25rem;
-    height: 14rem;
-}
-
-.well-trajectory iframe {
-    width: 25rem;
-    height: 14rem;
-}
-
-.groceries-app iframe {
-    width: 25rem;
-    height: 14rem;
-}
-
-
-/* Diseño de Revestidores, Administración de Condominio, Videojuegos, presiones */
+/* Justified Left */
 .justified-left {
     width: 100%;
     padding: 5rem 3rem;
@@ -143,7 +110,7 @@
     font-weight: bold;
 }
 
-/* La Dolce Vita, Cálculos corporales, Lenín Caraballo */
+/* Justified Right */
 .justified-right {
     background-color: #F7F7F7;
     width: 100%;
@@ -203,52 +170,16 @@
     .justified-right {
         padding-left: 20rem;
     }
-    
-    .casing-design iframe {
-        width: 35rem;
-        height: 19.66rem;
-    }
-    
-    .planetageek-webpage img {
-        display: inline-block;
-        width: 35rem;
-        height: 16.67rem;
-    }
-    
-    .videojuegos iframe {
-        width: 35rem;
-        height: 19.66rem;
-    }
-    
-    .admin-condo iframe {
-        width: 35rem;
-        height: 19.66rem;
-    }
-    
-    .lenin-caraballo iframe {
-        width: 35rem;
-        height: 19.66rem;
-    }
-    
-    .dolce-vita img {
-        display: inline-block;
-        width: 35rem;
-        height: 16.67rem;
-    }
-    
-    .formation-pressures iframe {
-        width: 35rem;
-        height: 19.66rem;
-    }
-    
-    .well-trajectory iframe {
+
+    main section iframe {
         width: 35rem;
         height: 19.66rem;
     }
 
-    .groceries-app iframe {
+    main section img {
+        display: inline-block;
         width: 35rem;
-        height: 19.66rem;
+        height: 16.67rem;
     }
 }
 
@@ -275,63 +206,19 @@
         height: 30rem;
     }
 
-    .casing-design article,
-    main .planetageek-webpage article,
-    .videojuegos article,
-    main .dolce-vita article,
-    .admin-condo article,
-    main .lenin-caraballo article,
-    .formation-pressures article,
-    main .well-trajectory article, .groceries-app article {
+    main section article {
         width: 80rem;
-        /* margin: 0 auto; */
     }
-    
-    .casing-design iframe {
-        width: 56rem;
-        height: 30.15rem;
-    }
-    
-    .planetageek-webpage img {
-        display: inline-block;
-        width: 56rem;
-        height: 26.67rem;
-    }
-    
-    .videojuegos iframe {
-        width: 56rem;
-        height: 30.15rem;
-    }
-    
-    .admin-condo iframe {
-        width: 56rem;
-        height: 30.15rem;
-    }
-    
-    .lenin-caraballo iframe {
-        width: 56rem;
-        height: 30.15rem;
-    }
-    
-    .dolce-vita img {
-        display: inline-block;
-        width: 56rem;
-        height: 26.67rem;
-    }
-    
-    .formation-pressures iframe {
-        width: 56rem;
-        height: 30.15rem;
-    }
-    
-    .well-trajectory iframe {
+
+    main section iframe {
         width: 56rem;
         height: 30.15rem;
     }
 
-    .groceries-app iframe {
+    main section img {
+        display: inline-block;
         width: 56rem;
-        height: 30.15rem;
+        height: 26.67rem;
     }
     
     .justified-left {
