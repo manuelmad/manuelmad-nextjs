@@ -1,9 +1,3 @@
-
-/* :root {
-    --bckg-color: #252C5A;
-    --font-color: white;
-} */
-
 .header {
     width: 100%;
     height: 6.2rem;
@@ -138,12 +132,12 @@
 
 @media (min-width: 1024px) {
         .header > .header_logo_container {
-            margin-left: 5rem;
+            margin-left: 5vw;
         }
         
         .menu_principal {
             font-size: var(--md);
-            margin-right: 10rem;
+            margin-right: 10vw;
         }
         
         .menu_principal_a:hover {
