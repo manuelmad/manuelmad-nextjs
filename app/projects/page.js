@@ -51,6 +51,10 @@ export default function Projects() {
                         <p>The web editor is a clone of the website, but with the obvious difference that it allows the user to upload new content to the database so the website is automatically updated.</p>
                         <p>To access the web editor, the client first logs in with the correct email and password, and then all the options to make changes to the website are available: upload new images and write new titles and texts.</p>
                         <p>In this way; a client can edit a website, that was initially developed by me writing code, whenever they want and from any device with an internet connection; by using a simple interface and without writing code.</p>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#252C5A" className="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg><a href="https://github.com/manuelmad/planetageek-website-editor" target="_blank">GO TO REPO</a>
+                        </p>
                     </article>
                 </section>
                 <section className="casing-design justified-left">
@@ -75,6 +79,14 @@ export default function Projects() {
                         <p>They can repeat this process for each product they want to sell to the client, the table will show all the products with their individual cost and the total of the sale.</p>
                         <p>There are also some areas to add additional costs from products that clients can ask that don't exist in the catalog.</p>
                         <p>At the end, there is a template of a budget with the company logo so they can take a capture of it and send it to the client.</p>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#252C5A" className="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg><a href="https://manuelmad.github.io/dolcevita-budget-calculator/" target="_blank">GO TO APP</a>
+                        </p>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#252C5A" className="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg><a href="https://github.com/manuelmad/dolcevita-budget-calculator" target="_blank">GO TO REPO</a>
+                        </p>
                     </article>
                 </section>
                 <section className="formation-pressures justified-left">
@@ -106,6 +118,10 @@ export default function Projects() {
                         <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#252C5A" className="bi bi-caret-right-fill" viewBox="0 0 16 16">
                             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
                             </svg><a href="https://yacambu.netlify.app/" target="_blank">GO TO APP</a>
+                        </p>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#252C5A" className="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg><a href="https://github.com/manuelmad/receipts-generator" target="_blank">GO TO REPO</a>
                         </p>
                     </article>
                 </section>
@@ -145,6 +161,10 @@ export default function Projects() {
                             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
                             </svg><a href="https://planetageek-videogame.netlify.app/" target="_blank">GO TO APP</a>
                         </p>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#252C5A" className="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg><a href="https://github.com/manuelmad/videogame-topdown" target="_blank">GO TO REPO</a>
+                        </p>
                     </article>
                 </section>
                 <section className="videogames-apirest justified-left">
@@ -162,6 +182,10 @@ export default function Projects() {
                             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
                             </svg><a href="https://manuelmad.github.io/API-REST/" target="_blank">GO TO APP</a>
                         </p>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#252C5A" className="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg><a href="https://github.com/manuelmad/API-REST" target="_blank">GO TO REPO</a>
+                        </p>
                     </article>
                 </section>
                 <section className="planetageek-webpage justified-right">
@@ -176,6 +200,10 @@ export default function Projects() {
                         <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#252C5A" className="bi bi-caret-right-fill" viewBox="0 0 16 16">
                             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
                             </svg><a href="https://planetageek.netlify.app" target="_blank">GO TO APP</a>
+                        </p>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#252C5A" className="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg><a href="https://github.com/manuelmad/planeta-geek" target="_blank">GO TO REPO</a>
                         </p>
                     </article>
                 </section>
