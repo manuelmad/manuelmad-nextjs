@@ -40,6 +40,23 @@ export default function Projects() {
                         <Image src="/imgs/manuel-araujo-picture.png" width={305} height={377} alt="Manuel Araujo picture"/>
                     </div>
                 </section>
+                <section className="shopping-list justified-left">
+                    <article>
+                        <h1>Shopping List Mobile App.</h1>
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/UXD-M4DJKhI?si=Z-OL3U5UFnZB5k7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <p>A mobile app, made using Expo and React Native, to create shopping lists.</p>
+                        <p>Choose a product from the drop-down list, enter the quantity you want to purchase, and it will appear in your shopping list. You'll see an estimated cost for all products added to the list.</p>
+                        <p>Tap any product in the list once to cross it out and subtract its cost from the estimated total, and tap it again to remove the cross-out and add its cost back.
+                        Tap and hold any product in the list to delete it individually. You can delete all products using the "Clear List" button.</p>
+                        <p>It also counts with an editable database so the user can customize the app.</p>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#252C5A" className="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg><a href="/privacy_policies/compralog" target="_blank">GO TO PRIVACY POLICY</a>
+                        </p>
+                    </article>
+                </section>
                 <section className="web-editor justified-right">
                     <article>
                         <h1>Website Editor.</h1>
@@ -91,7 +108,7 @@ export default function Projects() {
                 </section>
                 <section className="formation-pressures justified-left">
                     <article>
-                        <h1>Pore and fracture pressures calculation.</h1>
+                        <h1>Pore and Fracture Pressures Calculation.</h1>
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/QVX95zT1mUo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         <p>From seismic data, we can determine the pore (by using Pennebaker correlation) and fracture (by using Ben Eaton equation) pressures of the formations in the subsurface, before starting a well drilling.</p>
                     </article>
