@@ -66,9 +66,17 @@ export default function Home() {
         <section id="curriculum" className={styles.curriculum}>
             <div className={styles.curriculum_left}>
                 <h1>Studies</h1>
+                <h2 className={nothing.className}><u>2023 - Present</u></h2>
+                <p>Technical documentation.</p>
+                <ul>
+                  <li>Next.js</li>
+                  <li>Firebase</li>
+                  <li>React Native</li>
+                  <li>Expo</li>
+                </ul>
                 <h2 className={nothing.className}><u>2022 - 2023</u></h2>
                 <p>Platzi.</p>
-                <ul>Web Development Scholl.
+                <ul>Web Development School.
                     <li>Frontend Developer.</li>
                     <li>Git and GitHub (Professional).</li>                  
                     <li>HTML and CSS.</li>
@@ -78,7 +86,7 @@ export default function Home() {
                     <li>Basic and Intermediate OOP with JavaScript.</li>
                     <li>ECMAScript 6+.</li>
                     <li>Asynchronism with JavaScript.</li>
-                    <li>Management of Dependencies y Packages with NPM.</li>
+                    <li>Management of Dependencies and Packages with NPM.</li>
                     <li>Arrays Methods with JavaScript.</li>
                     <li>REST API's with JavaScript.</li>
                     <li>Webpack.</li>
@@ -108,6 +116,8 @@ export default function Home() {
                     <p><Image src="/imgs/github.png" alt="logo github" width={512} height={512}/></p>
                     <p><Image src="/imgs/npm.png" alt="logo npm" width={1600} height={1600}/></p>
                     <p><Image src="/imgs/firebase.png" alt="logo firebase" width={1200} height={321}/></p>
+                    <p><Image src="/imgs/react-native.png" alt="logo react native" width={275} height={300}/></p>
+                    <p><Image src="/imgs/logo-wordmark.png" alt="logo expo" width={1024} height={289}/></p>
                 </div>
             </div>
         </section>

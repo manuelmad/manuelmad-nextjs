@@ -212,6 +212,16 @@
   height: 4rem;
 }
 
+.habilities_container p:nth-child(10) img {
+  width: 4rem;
+  height: 4.4rem;
+}
+
+.habilities_container p:nth-child(11) img {
+  width: 7rem;
+  height: 2rem;
+}
+
 @media (min-width: 600px) {
   .bg_container {
     height: 22.1rem;
@@ -388,4 +398,14 @@
     width: 18.7rem;
     height: 5rem;
   }
+
+  .habilities_container p:nth-child(10) img {
+    width: 5rem;
+    height: 5.5rem;
+  }
+
+  .habilities_container p:nth-child(11) img {
+  width: 14rem;
+  height: 4rem;
+}
 }
