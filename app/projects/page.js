@@ -40,6 +40,23 @@ export default function Projects() {
                         <Image src="/imgs/manuel-araujo-picture.png" width={305} height={377} alt="Manuel Araujo picture"/>
                     </div>
                 </section>
+                 <section className="collection-inventory justified-right">
+                    <article>
+                        <h1>Collection Inventory Mobile App.</h1>
+                        <div>
+                            <Image src="/imgs/clubNintendoCollection.png" width={1337} height={696} alt='Img ClubNintendoCollection app'/>
+                        </div>
+                        <p>A mobile app, made using Expo and React Native, to manage the inventory of Club Nintendo Magazines collection.</p>
+                        <p>Enter any of the regions available for collecting Club Nintendo magazines.</p>
+                        <p>Enter one of the magazine's distribution years for the selected region.</p>
+                        <p>The covers of all magazines distributed in the region and year selected by the user are displayed. In addition, relevant information for each issue is shown: issue number, month and year of distribution, and whether or not it includes a poster.</p>
+                        <p>By default, all magazines are marked as "Not available" in your collection. Tap the button to change their status to "Yes, available." You can revert the status by tapping the button again. All statuses are stored in your mobile device's memory.</p>
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#252C5A" className="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg><a href="/privacy_policies/ClubNintendoCollection" target="_blank">GO TO PRIVACY POLICY</a>
+                        </p>
+                    </article>
+                </section>
                 <section className="shopping-list justified-left">
                     <article>
                         <h1>Shopping List Mobile App.</h1>

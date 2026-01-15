@@ -87,7 +87,7 @@ main section img {
     height: 11.9rem;
 }
 
-.planetageek-webpage img {
+.planetageek-webpage img, .collection-inventory img {
     text-align: end;
 }
 
