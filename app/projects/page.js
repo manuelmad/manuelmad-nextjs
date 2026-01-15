@@ -44,7 +44,7 @@ export default function Projects() {
                     <article>
                         <h1>Collection Inventory Mobile App.</h1>
                         <div>
-                            <Image src="/imgs/clubNintendoCollection.png" width={1337} height={696} alt='Img ClubNintendoCollection app'/>
+                            <Image src="/imgs/ClubNintendoCollection.png" width={1337} height={696} alt='Img ClubNintendoCollection app'/>
                         </div>
                         <p>A mobile app, made using Expo and React Native, to manage the inventory of Club Nintendo Magazines collection.</p>
                         <p>Enter any of the regions available for collecting Club Nintendo magazines.</p>
