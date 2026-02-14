@@ -37,7 +37,7 @@
 
 .introduction_left h2 {
   /* font-family: 'Nothing You Could Do', cursive; */
-  color: var(--hospital-green);
+  color: var(--dark-blue);
   font-weight: 700;
 }
 
@@ -154,7 +154,7 @@
 .curriculum_left h2 {
   /* font-family: 'Nothing You Could Do', cursive; */
   font-weight: 700;
-  color: var(--hospital-green);
+  color: var(--dark-blue);
 }
 
 .curriculum_left h2, .curriculum_left p, .curriculum_left ul {
